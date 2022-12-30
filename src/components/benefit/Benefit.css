@@ -1,0 +1,50 @@
+.benefit {
+  background: #fff;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.benefit-container {
+  margin: 2rem 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  font-size: .7rem;
+
+}
+
+.benefit-column1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.benefit-column2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.benefit1 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.benefit1 p {
+  text-align: center;
+}
+
+.text-blue {
+  color: var(--color-primary);
+}
+
+.icon img {
+  width: 2rem;
+}

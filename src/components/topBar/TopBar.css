@@ -1,0 +1,26 @@
+.topbar {
+  background: #fff;
+}
+
+.container-topbar {
+  padding: 1rem 0;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 1rem;
+  color: var(--color-primary);
+}
+
+.topbar-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.topbar-nav button {
+  padding: .5rem 1rem;
+  background-color: var(--color-primary);
+  border-radius: .5rem;
+  color: #fff;
+}

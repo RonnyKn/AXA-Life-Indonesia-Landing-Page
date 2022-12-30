@@ -1,0 +1,37 @@
+.about {
+
+  padding: 2rem 0;
+  background: #fff;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-title span {
+  color: var(--color-primary);
+}
+
+.about-content p {
+  font-size: .7rem;
+  text-align: center;
+}
+
+.about-content {
+  margin: 0 auto;
+}
+
+.about-button {
+  text-align: center;
+  width: 100%;
+}
+
+.about-button button {
+  margin: 1rem auto 0;
+  display: flex;
+  justify-content: center;
+  background: var(--color-primary);
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+}
