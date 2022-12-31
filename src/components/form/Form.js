@@ -20,11 +20,7 @@ const Form = () => {
           </div>
           <div className="form-input">
             <input type="text" />
-            <div className="input-date">
-              <input type="date" />
-              <input type="date" />
-              <input type="date" />
-            </div>
+            <input type="date" />
             <input type="email" />
             <input type="number" />
 
@@ -40,18 +36,27 @@ const Form = () => {
             </div>
 
             <div className="form-agreement">
-              <button>
+              <button className="button-syarat">
                 <span className="text-blue ">
                   Syarat dan ketentuan Aplikasi
                 </span>
               </button>
               <div className="agreement-check">
-                <input type="checkbox" className="check-1" />
-                <label>
-                  Saya mengetahui dan menyetujui syarat dan ketentuan diatas
-                  serta bersedia dihubungi oleh PT. AXA Life Indonesia untuk
-                  mendapatkan penjelasan tentang produk dan informasi lainnya
-                </label>
+                <div className="agreement-checkbox">
+                  <input type="checkbox" className="check-1" />
+                  <label>
+                    Saya mengetahui dan menyetujui syarat dan ketentuan diatas
+                    serta bersedia dihubungi oleh PT. AXA Life Indonesia untuk
+                    mendapatkan penjelasan tentang produk dan informasi lainnya
+                  </label>
+                </div>
+                <button>Kirim</button>
+                <p>
+                  * Promo ini hanya berlaku bagi pemegang atau pemilik kartu
+                  kredit Syarat dan ketentuan lain diatur sebagaimana tertulis
+                  pada bagian syarat dan ketentuan. PT. AXA Life Indonesia
+                  terdaftar & diawasi oleh Otoritas Jasa keuangan (OJK)
+                </p>
               </div>
             </div>
           </div>
